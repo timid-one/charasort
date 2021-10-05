@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
-  {name: "Ougi Oshino", img: "https://imgur.com/B4SroGj.gif",opts: {}},
+{name: "Ougi Oshino", img: "https://imgur.com/B4SroGj.gif",opts: {}},
 {name: "Hitagi Senjougahara", img: "https://imgur.com/OuIM9MM.gif",opts: {}},
 {name: "Sayaka Kanamori", img: "https://media.discordapp.net/attachments/472313197836107780/669748234696130560/bGFufrm.png",opts: {}},
 {name: "Koyomi Araragi", img: "https://imgur.com/cmpwQiv.gif",opts: {}},
