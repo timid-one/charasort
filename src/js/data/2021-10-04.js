@@ -1,9 +1,7 @@
 dataSetVersion = "2021-10-04"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
-dataSet[dataSetVersion].options = [
- 
-];
+dataSet[dataSetVersion].options = [];
 
 dataSet[dataSetVersion].characterData = [
 {name: "Ougi Oshino", img: "https://imgur.com/B4SroGj.gif",opts: {}},
