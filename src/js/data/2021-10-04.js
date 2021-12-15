@@ -1785,7 +1785,10 @@ dataSet[dataSetVersion].characterData = [
 {name: "Natsuki", img: "https://media.discordapp.net/attachments/472313197836107780/606725246543724564/8pcE4dg.png",opts: {}},
 {name: "Hu Tao", img: "https://imgur.com/EDblHUf.gif",opts: {}},
 {name: "Razputin", img: "https://imgur.com/vVQ2k13.png",opts: {}},
-
+{name: "Chise Asukagawa", img: "https://imgur.com/kNZoYBa.png",opts: {}},
+{name: "Hak Son", img: "https://media.discordapp.net/attachments/472313197836107780/700489622081503273/AX4Zt1Z.png",opts: {}},
+{name: "Nailah", img: "https://media.discordapp.net/attachments/472313197836107780/620115266176679956/6XnBkgh.png",opts: {}},
+{name: "Hector (CV)", img: "https://media.discordapp.net/attachments/872026548692209738/872167606667333652/GXI9BqD.png",opts: {}},
 ];
 
 dataSet[dataSetVersion].options = [
