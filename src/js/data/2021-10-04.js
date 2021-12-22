@@ -1789,6 +1789,19 @@ dataSet[dataSetVersion].characterData = [
 {name: "Hak Son", img: "https://media.discordapp.net/attachments/472313197836107780/700489622081503273/AX4Zt1Z.png",opts: {}},
 {name: "Nailah", img: "https://media.discordapp.net/attachments/472313197836107780/620115266176679956/6XnBkgh.png",opts: {}},
 {name: "Hector (CV)", img: "https://media.discordapp.net/attachments/872026548692209738/872167606667333652/GXI9BqD.png",opts: {}},
+{name: "Kagome Higurashi", img: "https://media.discordapp.net/attachments/472313197836107780/572625740193988608/LqK77y5.png",opts: {}},
+{name: "Izumi Miyamura", img: "https://imgur.com/lUQdfYM.png",opts: {}},
+{name: "Zed O'Brien", img: "https://imgur.com/Rg5H7CL.png",opts: {}},
+{name: "Kimimaro", img: "https://media.discordapp.net/attachments/872026548692209738/872068668626985030/VDV248X.png",opts: {}},
+{name: "Jungkook", img: "https://media.discordapp.net/attachments/872026548692209738/872055676317335572/h4PGdxZ.png",opts: {}},
+{name: "The Knight who says 'Ni'", img: "https://media.discordapp.net/attachments/472313197836107780/747247368436711555/nlOuSsr.png",opts: {}},
+{name: "Tobirama Senju", img: "https://media.discordapp.net/attachments/872026548692209738/872056857122983946/ia99b0z.png",opts: {}},
+{name: "Michiru Fukuroi", img: "https://media.discordapp.net/attachments/872026548692209738/872200871017070694/FRhLJ7a.png",opts: {}},
+{name: "Lisanna Strauss", img: "https://media.discordapp.net/attachments/472313197836107780/748749372757377094/dF92Kra.png",opts: {}},
+{name: "Ban Midou", img: "https://imgur.com/yjtdCnk.png",opts: {}},
+{name: "Isidro", img: "https://media.discordapp.net/attachments/472313197836107780/538543676088123412/jojCxqy.png",opts: {}},
+
+
 ];
 
 dataSet[dataSetVersion].options = [
