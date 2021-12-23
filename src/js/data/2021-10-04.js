@@ -1800,7 +1800,8 @@ dataSet[dataSetVersion].characterData = [
 {name: "Lisanna Strauss", img: "https://media.discordapp.net/attachments/472313197836107780/748749372757377094/dF92Kra.png",opts: {}},
 {name: "Ban Midou", img: "https://imgur.com/yjtdCnk.png",opts: {}},
 {name: "Isidro", img: "https://media.discordapp.net/attachments/472313197836107780/538543676088123412/jojCxqy.png",opts: {}},
-
+{name: "Shelly de Killer", img: "https://media.discordapp.net/attachments/472313197836107780/749121538325872661/2XMJcHv.png",opts: {}},
+{name: "Neito Monoma", img: "https://media.discordapp.net/attachments/872026548692209738/872053747101085736/o6FXG8v.png",opts: {}},
 
 ];
 
