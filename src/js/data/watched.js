@@ -1,4 +1,4 @@
-dataSetVersion = "unwatched"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "watched"; // Change this when creating a new data set version.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].characterData = [
