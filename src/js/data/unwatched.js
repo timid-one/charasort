@@ -408,7 +408,7 @@ dataSet[dataSetVersion].characterData = [
 {name: "Tomomo", img: "https://imgur.com/1nkeRz9.png",opts: {}},
 {name: "HAL 9000", img: "https://imgur.com/vaGDYYc.png",opts: {}},
 {name: "Nanako Saeki", img: "https://imgur.com/AnC0qhq.png",opts: {}},
-
+{name: "10,000 Volt Ghost", img: "https://imgur.com/vkY0wJg.png",opts: {}},
 
 
 
