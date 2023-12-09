@@ -7440,4 +7440,4 @@ opts: {status: [ "Unwatched"]}},
 {name: "Lala", 
 img: "href=src/assets/src/chars/unwatched/Lala.png", 
 opts: {status: [ "Unwatched"]}},
-]
+];
