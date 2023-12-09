@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
     ]
   },
 ];
-
+dataSet[dataSetVersion].characterData = [
 {name: "Ougi Oshino", 
 img: img="src/assets/src/chars/watched/Ougi Oshino.gif", 
 opts: {status: [ "Watched"]}},
