@@ -1,8 +1,8 @@
 # charasort
 Mudae character sorter
 
-currently requires cors bypass extension
+may not work on chrome. sorry chromium cucks
 
-Based on code from https://github.com/execfera/charasort
+Forked from https://github.com/execfera/charasort
 
 big ups to those guys
