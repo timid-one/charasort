@@ -1,3 +1,19 @@
+dataSetVersion = "2023-12-09"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSet[dataSetVersion] = {};
+
+dataSet[dataSetVersion].options = [
+  {
+    name: "Filter by Watched/Unwatched status",
+    key: "status",
+    tooltip: "Check this to restrict to watched/unwatched characters.",
+    checked: false,
+    sub: [
+      { name: "Watched", key: "wch" },
+      { name: "Unwatched", key: "unw" },
+    ]
+  },
+];
+dataSet[dataSetVersion].characterData = [
 {name: "Ougi Oshino", img: "Ougi Oshino.gif",opts: {status: ["wch",]}},
 {name: "Hitagi Senjougahara", img: "Hitagi Senjougahara.gif",opts: {status: ["wch",]}},
 {name: "Sayaka Kanamori", img: "Sayaka Kanamori.gif",opts: {status: ["wch",]}},
@@ -2078,7 +2094,7 @@
 {name: "Chizuru Ikeda", img: "Chizuru Ikeda.png",opts: {status: ["wch",]}},
 
 
-
+  
 {name: "Son Goku", 
 img: href="src/assets/chars/unwatched/Son Goku.png", 
 opts: {status: ["unw",]}},
