@@ -23,7 +23,7 @@ def writeLines(path, lines):
 def main(): 
     dateStr = str(date.today())
     dir = os.path.dirname(os.path.dirname(__file__))
-    filePath = "{}\{}{}".format(os.path.join(dir, 'js\data'), dateStr, '.js')
+    filePath = "{}\\{}{}".format(os.path.join(dir, 'js\\data'), dateStr, '.js')
     watchedCommand = "$mmvnisi-"
     unwatchedCommand = "$fnvisi- unwatched"
     headerLines =   [
@@ -42,19 +42,37 @@ def main():
         "];\n",
         "dataSet[dataSetVersion].characterData = [\n" 
     ]
-    
+    if(os.getenv("GETFILEDATA") == None):
+        print("Must include file data option in .env file")
+        return
+
     match os.getenv("GETFILEDATA").lower().strip():
         case "true":
             watchedPath = os.getenv("WATCHEDFILEPATH")
             unwatchedPath = os.getenv("UNWATCHEDFILEPATH")
 
-            if(watchedPath is None or not os.path.exists(watchedPath)):
-                print("Failed to obtain watched file path for character names. Please ensure WATCHEDFILEPATH exists and is valid")
-                return  
-            
-            if(unwatchedPath is None or not os.path.exists(unwatchedPath)):
-                print("Failed to obtain unwatched file path for character names. Please ensure UNWATCHEDFILEPATH exists and is valid")
+            if(watchedPath is None):
+                print("Please ensure WATCHEDFILEPATH option in .env file is present")
                 return
+            
+            
+            if(unwatchedPath is None):
+                print("Please ensure UNWATCHEDFILEPATH option in .env file is present")
+                return
+
+            if(not os.path.exists(watchedPath)):
+                watchedPath = os.path.join(dir, watchedPath)
+                if(not os.path.exists(watchedPath)):
+                    print("Failed to obtain watched file path for character names. Please ensure WATCHEDFILEPATH is valid")
+                    print("Erroneous Filepath:" + watchedPath)
+                    return  
+            
+            if(not os.path.exists(unwatchedPath)):
+                unwatchedPath = os.path.join(dir, unwatchedPath)
+                if(not os.path.exists(unwatchedPath)):
+                    print("Failed to obtain watched file path for character names. Please ensure UNWATCHEDFILEPATH is valid")
+                    print("Erroneous Filepath:" + watchedPath)
+                    return  
             
             writeLines(filePath, headerLines)
             
@@ -81,7 +99,7 @@ def main():
                 return
             
             print(os.path.join(dir, 'geckodriver.exe'))
-            cService = webdriver.FirefoxService(executable_path=os.path.join(dir, '\scripts\geckodriver.exe'))
+            cService = webdriver.FirefoxService(executable_path=os.path.join(dir, '\\scripts\\geckodriver.exe'))
             driver = webdriver.Firefox(service=cService)
             driver.get("https://discord.com")
             driver.execute_script("function login(token) {setInterval(() => {document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `\"" + token + "\"`}, 50);setTimeout(() => {location.reload();}, 2500);}login(token);")
